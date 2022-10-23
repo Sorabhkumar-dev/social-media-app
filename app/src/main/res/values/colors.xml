@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //color secondary
+    <color name="blue_700">#2962ff</color>
+    <color name="blue_900">#0039cb</color>
+    <color name="blue_500">#768fff</color>
+    <color name="blue_200">#448aff</color>
+
+    //color primary
+    <color name="blue_300">#005ecb</color>
+    <color name="blue_400">#005ecb</color>
+    <color name="blue_100">#83b9ff</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Truly Social</string>
+    <string name="posts">Posts</string>
+    <string name="photos">Photos</string>
+    <string name="followers">Followers</string>
+    <string name="drafts">drafts</string>
+    <string name="hello_blank_fragment">Faster</string>
+    <string name="retry">Retry</string>
+    <string name="something_went_wrong">Something Went wrong!</string>
+    <string name="user_id">User id: %d</string>
+    <string name="title">Title: %s</string>
+    <string name="editable">Editable : %s</string>
+    <string name="sorabh_kumar">Developed by Sorabh Kumar…</string>
+</resources>

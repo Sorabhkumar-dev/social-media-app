@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.sorabh.truelysocial.ui.users.fragment.FollowersFragment"
+        android:label="users_fragment"
+        tools:layout="@layout/users_fragment" />
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.sorabh.truelysocial.ui.photos.fragment.PhotosFragment"
+        android:label="photos_fragment"
+        tools:layout="@layout/photos_fragment" />
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.sorabh.truelysocial.ui.post.fragment.PostFragment"
+        android:label="post_fragment"
+        tools:layout="@layout/post_fragment">
+        <action
+            android:id="@+id/action_postFragment_to_commentsFragment"
+            app:destination="@id/commentsFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_from_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_from_right" />
+        <action
+            android:id="@+id/action_postFragment_to_draftsFragment"
+            app:destination="@id/draftsFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_from_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_from_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/commentsFragment"
+        android:name="com.sorabh.truelysocial.ui.post.fragment.CommentsFragment"
+        android:label="comments_fragment"
+        tools:layout="@layout/comments_fragment">
+        <argument
+            android:name="postId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/draftsFragment"
+        android:name="com.sorabh.truelysocial.ui.post.fragment.DraftsFragment"
+        android:label="drafts_fragment"
+        tools:layout="@layout/drafts_fragment" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.sorabh.truelysocial.ui.splash.SplashFragment"
+        android:label="splash_fragment"
+        tools:layout="@layout/splash_fragment">
+        <action
+            android:id="@+id/action_splashFragment_to_postFragment"
+            app:destination="@id/postFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_from_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_from_right" />
+    </fragment>
+</navigation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/drawable/ic_big_logo.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/drawable/ic_comment.xml" value="0.175" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/drawable/ic_drafts.xml" value="0.175" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/drawable/ic_error.xml" value="0.117" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/drawable/ic_photos.xml" value="0.1125" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/drawable/ic_post.xml" value="0.1125" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/drawable/ic_users.xml" value="0.1125" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/activity_main.xml" value="0.228125" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/comment_layout.xml" value="0.19880290722530997" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/comments_fragment.xml" value="0.19880290722530997" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/draft_layout.xml" value="0.19880290722530997" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/drafts_fragment.xml" value="0.19880290722530997" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/error_layout.xml" value="0.19880290722530997" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/follower_layout.xml" value="0.19880290722530997" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/photos_fragment.xml" value="0.19880290722530997" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/photos_layout.xml" value="0.19880290722530997" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/post_fragment.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/post_layout.xml" value="0.19880290722530997" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/progress_layout.xml" value="0.19880290722530997" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/root_activity.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/splash_fragment.xml" value="0.19880290722530997" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/layout/users_fragment.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/menu/nav_menu.xml" value="0.2421875" />
+        <entry key="..\:/Users/Admin/TruelySocial/app/src/main/res/xml/network_security_config.xml" value="0.2421875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
