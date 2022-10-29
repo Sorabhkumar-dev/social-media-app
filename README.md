@@ -1,4 +1,6 @@
 ## Social media app <br>
+📱  Social Media App  👉[Try-out here](https://drive.google.com/file/d/1zFj6BTBe6s_aA-wWKXp-RH19vizLLR_W/view?usp=drivesdk).</br>
+ <img src="https://github.com/Sorabhkumar-dev/social-media-app/blob/master/app/src/main/ic_launcher-playstore.png" alt="Social Media App" height="200"/></br>
 👋 **Hi there,**<br>
 this sorabh kumar working as android developer at gurugram bassed tech startup. this my personal project by using latest android tools and libary.<br>
 ### Purpose of developing this project 👉<br>
